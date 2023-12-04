@@ -1,0 +1,57 @@
+
+Certamente! Para criar um layout que impressione, você pode seguir um estilo limpo e organizado. Aqui está um exemplo de layout para o componente app:
+
+css
+Copy code
+/* app.component.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.saque-input {
+  font-size: 1rem;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.btn-realizar-saque {
+  font-size: 1rem;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.notas-entregues {
+  margin-top: 20px;
+}
+
+  .notas-entregues p {
+    font-size: 1.2rem;
+    color: #343a40;
+  }
+
+.error-message {
+  font-size: 1.2rem;
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 10px;
+}

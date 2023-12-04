@@ -1,0 +1,10 @@
+<div class="app-container">
+  <h1 class="app-title">Caixa Eletrônico</h1>
+  <label for="valorSaque" class="saque-input">Informe o valor do saque: R$</label>
+  <input type="number" id="valorSaque" [(ngModel)]="valorSaque" class="saque-input" />
+  <button (click)="realizarSaque()" class="btn-realizar-saque">Realizar Saque</button>
+
+  <div class="notas-entregues">
+    <p *ngFor="let nota of notasEntregues">{{ nota }}</p>
+  </div>
+</div>
